@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Sorpresa de Hello Kitty</title>
+    
+    <link rel="stylesheet" href="kitty_style.css">
+</head>
+<body>
+
+    <div class="container">
+        
+        <div id="start-screen" class="screen active">
+            <h1>¡Hola mi Amor! 🎀</h1>
+            <p>Haz clic en el corazón para empezar...</p>
+            <button id="start-button" class="heart-button">💖</button>
+        </div>
+
+        <div id="game-screen" class="screen hidden">
+            <img id="kitty-image" src="" alt="Kitty" style="width:200px;">
+            <p id="love-message"></p>
+            <button id="next-button" class="heart-button">Siguiente 💕</button>
+        </div>
+
+    </div>
+
+    <script src="kitty_script.js"></script>
+</body>
+</html>
